@@ -1,7 +1,7 @@
 package abstractprograms;
 
 
- interface Amazon1{
+  interface Amazon1{
 	 void add();
 	 void subtract();
 	

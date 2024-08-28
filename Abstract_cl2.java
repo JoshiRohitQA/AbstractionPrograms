@@ -26,12 +26,12 @@ class Parent   extends GrandParent           //concrete class
 	
 	void add() {
 		
-		
+		System.out.println("add");
 	}
 
 	
 	void substraction() {
-		
+		System.out.println("sub");
 		
 	}
 	
@@ -41,7 +41,11 @@ class Parent   extends GrandParent           //concrete class
 public class Abstract_cl2 extends Parent             //concrete class
 {
 	public static void main(String[] args) {
-		
+		Abstract_cl2 ac= new Abstract_cl2();
+		ac.add();
+		ac.substraction();
+		div();
+		multiply();
 	}
 
 }
